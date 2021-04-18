@@ -5,7 +5,9 @@ import { Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
 import { Carousel } from 'react-bootstrap'; 
-import preserve from '../assets/preserve.jpeg';
+import carousel1 from '../assets/carousel1.png';
+import carousel2 from '../assets/carousel2.jpeg';
+import carousel3 from '../assets/carousel3.jpeg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
@@ -72,7 +74,7 @@ class Home extends React.Component {
                             <Carousel.Item>
                                 <img
                                 className="d-block w-100"
-                                src={preserve}
+                                src={carousel1}
                                 alt="First slide"
                                 />
                                 <Carousel.Caption>
@@ -83,7 +85,7 @@ class Home extends React.Component {
                             <Carousel.Item>
                                 <img
                                 className="d-block w-100"
-                                src={preserve}
+                                src={carousel2}
                                 alt="Second slide"
                                 />
 
@@ -95,7 +97,7 @@ class Home extends React.Component {
                             <Carousel.Item>
                                 <img
                                 className="d-block w-100"
-                                src={preserve}
+                                src={carousel3}
                                 alt="Third slide"
                                 />
 

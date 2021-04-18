@@ -1,0 +1,14 @@
+.dm-jumbotron {
+    padding: 2rem;
+    background-color: lightseagreen;
+}
+
+.dm-row1, .dm-row2, .dm-row3 {
+    padding: 2rem;
+    background-color: thistle;
+}
+
+.card {
+    display: block;
+    margin: auto;
+}
