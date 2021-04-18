@@ -1,0 +1,19 @@
+.jumbotron {
+    text-align: center;
+    background: none;
+}
+
+.upperHalf {
+    padding: 2rem;
+    background-color: thistle;
+}
+
+.lowerHalf {
+    padding: 2rem;
+    background-color: lightseagreen;
+}
+
+.imgs {
+    display: block;
+    margin: auto;
+}

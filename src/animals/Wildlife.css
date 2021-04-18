@@ -1,0 +1,14 @@
+.wl-jumbotron {
+    padding: 2rem;
+    background-color: lightseagreen;
+}
+
+.wl-row1, .wl-row2, .wl-row3 {
+    padding: 2rem;
+    background-color: thistle;
+}
+
+.card {
+    display: block;
+    margin: auto;
+}

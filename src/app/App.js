@@ -6,6 +6,8 @@ import StyledNavbar from '../styledNavbar/StyledNavbar';
 import Home from '../home/Home';
 import About from '../about/About';
 import ContactUs from '../contactUs/ContactUs';
+import Wildlife from '../animals/Wildlife';
+import Domestic from '../animals/Domestic';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route path="/home" component={Home} />
           <Route path="/about" component={About} />
+          <Route path="/wildlife" component={Wildlife} /> 
+          <Route path="/domestic" component={Domestic} /> 
           <Route path="/contactUs" component={ContactUs} />  
         </Switch>
     </Router>

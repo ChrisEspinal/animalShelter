@@ -1,4 +1,4 @@
-.jumbotron {
+.custom-jumbotron .jumbotron{
     margin-top: 20px;
     background-position: center center;
     background-image: url('../assets/jumbotronImg.jpeg');
@@ -22,7 +22,7 @@
 
 .lowerArea{
     padding: 2rem;
-    background-color: lightseagreen;;
+    background-color: lightseagreen;
 }
 
 .lowImg{
@@ -32,12 +32,7 @@
 
 .footerImg {
 padding: 15px;
-/* padding-left: 0px; */
 }
-
-/* .col-footer {
-    padding-left: 0px;
-} */
 
 .fa-facebook {
     margin: 20px;
@@ -53,7 +48,6 @@ padding: 15px;
 
 .footer-links {
     margin: auto;
-    /* margin-left: 0px; */
 }
 
 .copyright {

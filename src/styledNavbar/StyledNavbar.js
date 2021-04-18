@@ -24,11 +24,11 @@ class StyledNavbar extends React.Component{
                   <NavDropdown title="See Our Animals" id="collasible-nav-dropdown">
                     {/* <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                     <NavDropdown.Item xhref="#action/3.2">Another action</NavDropdown.Item> */}
-                    <LinkContainer to="/about">
-                      <NavDropdown.Item>Cats</NavDropdown.Item>
+                    <LinkContainer to="/wildlife">
+                      <NavDropdown.Item>Wildlife</NavDropdown.Item>
                     </LinkContainer>
-                    <LinkContainer to="/about">
-                      <NavDropdown.Item>Dogs</NavDropdown.Item>
+                    <LinkContainer to="/domestic">
+                      <NavDropdown.Item>Domestic</NavDropdown.Item>
                     </LinkContainer>
                   </NavDropdown>
               </Nav>

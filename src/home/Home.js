@@ -2,6 +2,7 @@ import React from 'react';
 import './Home.css';
 import { Jumbotron, Container } from 'react-bootstrap';
 import { Row, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
 import { Carousel } from 'react-bootstrap'; 
 import preserve from '../assets/preserve.jpeg';
@@ -19,7 +20,7 @@ class Home extends React.Component {
                 <div className="upperArea">
                     <Row>
                         <Col sm={12}>
-                            <div className="jumbo">
+                            <div className="custom-jumbotron">
                                 <Jumbotron fluid>
                                     <Row>
                                         <Col sm={12}>
@@ -35,7 +36,9 @@ class Home extends React.Component {
                                         occaecat cupidatat non proident, sunt in culpa qui officia 
                                         deserunt mollit anim id est laborum.
                                         </p>
+                                        <Link to="/About">
                                         <Button variant="primary">Learn more</Button>
+                                        </Link>
                                     </Container>
                                         </Col>
                                     </Row>
