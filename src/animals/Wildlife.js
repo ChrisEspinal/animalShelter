@@ -1,5 +1,6 @@
 import React from 'react';
 import './Wildlife.css';
+import { Link } from 'react-router-dom';
 import { Jumbotron, Container } from 'react-bootstrap';
 import { Row, Col } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
@@ -43,14 +44,11 @@ class Wildlife extends React.Component {
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                                         tempor incididunt ut labore et dolore magna aliqua.
                                         </Card.Text>
-                                        <Button href="https://en.wikipedia.org/wiki/Serval" variant="primary" target="_blank">Learn More</Button>
+                                        <Link to="/ContactUs">
+                                        <Button variant="primary">Ask About Me!</Button>
+                                        </Link>
                                     </Card.Body>
                                     </Card>
-                                    {/* <Row>
-                                        <Col sm={12}>
-                                            //btn
-                                        </Col> 
-                                    </Row> */}
                                 </Col>
                                 <Col sm={12} lg={3}>
                                     <Card style={{ width: '18rem' }}>
@@ -61,14 +59,11 @@ class Wildlife extends React.Component {
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                                         tempor incididunt ut labore et dolore magna aliqua.
                                         </Card.Text>
-                                        <Button href="https://en.wikipedia.org/wiki/Serval" variant="primary" target="_blank">Learn More</Button>
+                                        <Link to="/ContactUs">
+                                        <Button variant="primary">Ask About Me!</Button>
+                                        </Link>
                                     </Card.Body>
                                     </Card>
-                                    {/* <Row>
-                                        <Col sm={12}>
-                                            //btn
-                                        </Col>
-                                    </Row> */}
                                 </Col>
                                 <Col sm={12} lg={3}>
                                 <Card style={{ width: '18rem' }}>
@@ -79,14 +74,11 @@ class Wildlife extends React.Component {
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                                         tempor incididunt ut labore et dolore magna aliqua.
                                         </Card.Text>
-                                        <Button href="https://en.wikipedia.org/wiki/Serval" variant="primary" target="_blank">Learn More</Button>
+                                        <Link to="/ContactUs">
+                                        <Button variant="primary">Ask About Me!</Button>
+                                        </Link>
                                     </Card.Body>
                                     </Card>
-                                    {/* <Row>
-                                        <Col sm={12}>
-                                            //btn
-                                        </Col>
-                                    </Row> */}
                                 </Col>
                                 <Col sm={12} lg={3}>
                                     <Card style={{ width: '18rem' }}>
@@ -97,14 +89,11 @@ class Wildlife extends React.Component {
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                                         tempor incididunt ut labore et dolore magna aliqua.
                                         </Card.Text>
-                                        <Button href="https://en.wikipedia.org/wiki/Serval" variant="primary" target="_blank">Learn More</Button>
+                                        <Link to="/ContactUs">
+                                        <Button variant="primary">Ask About Me!</Button>
+                                        </Link>
                                     </Card.Body>
                                     </Card>
-                                    {/* <Row>
-                                        <Col sm={12}>
-                                            //btn
-                                        </Col>
-                                    </Row> */}
                                 </Col>
                             </Row>
                         </Col>
@@ -124,14 +113,11 @@ class Wildlife extends React.Component {
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                                         tempor incididunt ut labore et dolore magna aliqua.
                                         </Card.Text>
-                                        <Button href="https://en.wikipedia.org/wiki/Serval" variant="primary" target="_blank">Learn More</Button>
+                                        <Link to="/ContactUs">
+                                        <Button variant="primary">Ask About Me!</Button>
+                                        </Link>
                                     </Card.Body>
                                     </Card>
-                                    {/* <Row>
-                                        <Col sm={12}>
-                                            //btn
-                                        </Col> 
-                                    </Row> */}
                                 </Col>
                                 <Col sm={12} lg={3}>
                                     <Card style={{ width: '18rem' }}>
@@ -142,14 +128,11 @@ class Wildlife extends React.Component {
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                                         tempor incididunt ut labore et dolore magna aliqua.
                                         </Card.Text>
-                                        <Button href="https://en.wikipedia.org/wiki/Serval" variant="primary" target="_blank">Learn More</Button>
+                                        <Link to="/ContactUs">
+                                        <Button variant="primary">Ask About Me!</Button>
+                                        </Link>
                                     </Card.Body>
                                     </Card>
-                                    {/* <Row>
-                                        <Col sm={12}>
-                                            //btn
-                                        </Col>
-                                    </Row> */}
                                 </Col>
                                 <Col sm={12} lg={3}>
                                 <Card style={{ width: '18rem' }}>
@@ -160,14 +143,11 @@ class Wildlife extends React.Component {
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                                         tempor incididunt ut labore et dolore magna aliqua.
                                         </Card.Text>
-                                        <Button href="https://en.wikipedia.org/wiki/Serval" variant="primary" target="_blank">Learn More</Button>
+                                        <Link to="/ContactUs">
+                                        <Button variant="primary">Ask About Me!</Button>
+                                        </Link>
                                     </Card.Body>
                                     </Card>
-                                    {/* <Row>
-                                        <Col sm={12}>
-                                            //btn
-                                        </Col>
-                                    </Row> */}
                                 </Col>
                                 <Col sm={12} lg={3}>
                                     <Card style={{ width: '18rem' }}>
@@ -178,14 +158,11 @@ class Wildlife extends React.Component {
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                                         tempor incididunt ut labore et dolore magna aliqua.
                                         </Card.Text>
-                                        <Button href="https://en.wikipedia.org/wiki/Serval" variant="primary" target="_blank">Learn More</Button>
+                                        <Link to="/ContactUs">
+                                        <Button variant="primary">Ask About Me!</Button>
+                                        </Link>
                                     </Card.Body>
                                     </Card>
-                                    {/* <Row>
-                                        <Col sm={12}>
-                                            //btn
-                                        </Col>
-                                    </Row> */}
                                 </Col>
                             </Row>
                         </Col>
@@ -205,14 +182,11 @@ class Wildlife extends React.Component {
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                                         tempor incididunt ut labore et dolore magna aliqua.
                                         </Card.Text>
-                                        <Button href="https://en.wikipedia.org/wiki/Serval" variant="primary" target="_blank">Learn More</Button>
+                                        <Link to="/ContactUs">
+                                        <Button variant="primary">Ask About Me!</Button>
+                                        </Link>
                                     </Card.Body>
                                     </Card>
-                                    {/* <Row>
-                                        <Col sm={12}>
-                                            //btn
-                                        </Col> 
-                                    </Row> */}
                                 </Col>
                                 <Col sm={12} lg={3}>
                                     <Card style={{ width: '18rem' }}>
@@ -223,14 +197,11 @@ class Wildlife extends React.Component {
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                                         tempor incididunt ut labore et dolore magna aliqua.
                                         </Card.Text>
-                                        <Button href="https://en.wikipedia.org/wiki/Serval" variant="primary" target="_blank">Learn More</Button>
+                                        <Link to="/ContactUs">
+                                        <Button variant="primary">Ask About Me!</Button>
+                                        </Link>
                                     </Card.Body>
                                     </Card>
-                                    {/* <Row>
-                                        <Col sm={12}>
-                                            //btn
-                                        </Col>
-                                    </Row> */}
                                 </Col>
                                 <Col sm={12} lg={3}>
                                 <Card style={{ width: '18rem' }}>
@@ -241,14 +212,11 @@ class Wildlife extends React.Component {
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                                         tempor incididunt ut labore et dolore magna aliqua.
                                         </Card.Text>
-                                        <Button href="https://en.wikipedia.org/wiki/Serval" variant="primary" target="_blank">Learn More</Button>
+                                        <Link to="/ContactUs">
+                                        <Button variant="primary">Ask About Me!</Button>
+                                        </Link>
                                     </Card.Body>
                                     </Card>
-                                    {/* <Row>
-                                        <Col sm={12}>
-                                            //btn
-                                        </Col>
-                                    </Row> */}
                                 </Col>
                                 <Col sm={12} lg={3}>
                                     <Card style={{ width: '18rem' }}>
@@ -259,20 +227,16 @@ class Wildlife extends React.Component {
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                                         tempor incididunt ut labore et dolore magna aliqua.
                                         </Card.Text>
-                                        <Button href="https://en.wikipedia.org/wiki/Serval" variant="primary" target="_blank">Learn More</Button>
+                                        <Link to="/ContactUs">
+                                        <Button variant="primary">Ask About Me!</Button>
+                                        </Link>
                                     </Card.Body>
                                     </Card>
-                                    {/* <Row>
-                                        <Col sm={12}>
-                                            //btn
-                                        </Col>
-                                    </Row> */}
                                 </Col>
                             </Row>
                         </Col>
                     </Row>
                 </div>
-
 
 
             </div>

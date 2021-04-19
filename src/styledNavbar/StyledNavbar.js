@@ -22,8 +22,6 @@ class StyledNavbar extends React.Component{
                   <Nav.Link>About</Nav.Link>
                 </LinkContainer>
                   <NavDropdown title="See Our Animals" id="collasible-nav-dropdown">
-                    {/* <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                    <NavDropdown.Item xhref="#action/3.2">Another action</NavDropdown.Item> */}
                     <LinkContainer to="/wildlife">
                       <NavDropdown.Item>Wildlife</NavDropdown.Item>
                     </LinkContainer>

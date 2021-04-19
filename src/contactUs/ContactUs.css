@@ -1,0 +1,38 @@
+.header {
+    padding: 2rem;
+    background-color: thistle;
+}
+
+.jumbotron {
+    text-align: center;
+    background: none;
+}
+
+.contact-body {
+    display: block;
+    margin-top: 76px;
+    padding: 2rem;
+    background-color: lightseagreen;
+}
+
+.formBody {
+    height: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.inputFields{
+    margin-top: 50px;
+}
+
+.name {
+    margin-bottom: 30px;
+}
+
+.email {
+    margin-bottom: 30px;
+}
+
+Button {
+    margin: 50px;
+}

@@ -44,7 +44,7 @@ class About extends React.Component {
                         <Col sm={12}>
                             <Row>
                                 <Col sm={12} lg={4}>
-                                    <img class="img-fluid imgs" src="https://www.dailynews.com/wp-content/uploads/2019/04/LDN-Z-SEARCH-0404-01-1.jpg"/>
+                                    <img class="img-fluid imgs" src="https://mycolumbuspower.com/wp-content/uploads/sites/29/2020/01/15797160627716.jpg?quality=80&strip=all&w=560&h=320&crop=1"/>
                                     <Row>
                                         <Col sm={12}>
                                             <CustomModal/>
@@ -52,7 +52,7 @@ class About extends React.Component {
                                     </Row>
                                 </Col>
                                 <Col sm={12} lg={4}>
-                                    <img class="img-fluid imgs" src="https://www.dailynews.com/wp-content/uploads/2019/04/LDN-Z-SEARCH-0404-01-1.jpg"/>
+                                    <img class="img-fluid imgs" src="https://newsone.com/wp-content/uploads/sites/22/2019/03/1552395325925.jpg?quality=80&strip=all&w=560&h=320&crop=1"/>
                                     <Row>
                                         <Col sm={12}>
                                             <CustomModal/>
@@ -60,7 +60,7 @@ class About extends React.Component {
                                     </Row>
                                 </Col>
                                 <Col sm={12} lg={4}>
-                                    <img class="img-fluid imgs" src="https://www.dailynews.com/wp-content/uploads/2019/04/LDN-Z-SEARCH-0404-01-1.jpg"/>
+                                    <img class="img-fluid imgs" src="https://www.hecktictravels.com/wp-content/uploads/2014/03/Yamnuska-Wolfdof-Sanctuary-Excerpt.jpg"/>
                                     <Row>
                                         <Col sm={12}>
                                             <CustomModal/>
@@ -71,8 +71,6 @@ class About extends React.Component {
                         </Col>
                     </Row>
                 </div>
-
-            
             
             </div>
         );

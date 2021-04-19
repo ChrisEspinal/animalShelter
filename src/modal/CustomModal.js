@@ -20,19 +20,18 @@ class CustomModal extends Component {
         </div>
         <Modal size="lg"show={this.state.isOpen} onHide={this.closeModal}>
           <Modal.Header closeButton>
-            <Modal.Title>Serval Cat</Modal.Title>
+            <Modal.Title>Outdoor Fun!</Modal.Title>
           </Modal.Header>
           <Modal.Body>
               <div className="embed-responsive embed-responsive-16by9 video">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/iBUJrdKG9jc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></Modal.Body>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/OXVcMogNVRE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={this.closeModal}>
               Close
             </Button>
           </Modal.Footer>
         </Modal>
-</>
-
+      </>
     );
   }
 }
